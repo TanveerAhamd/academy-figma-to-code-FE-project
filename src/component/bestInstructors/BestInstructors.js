@@ -3,12 +3,12 @@ import './bestInstructors.css';
 import courseImg from '../../assets/images/10.png';
 
 const instructors = [
-    { id: 1, name: 'Asad', role: 'Developer' },
-    { id: 2, name: 'Asad', role: 'Developer' },
-    { id: 3, name: 'Asad', role: 'Developer' },
-    { id: 4, name: 'Asad', role: 'Developer' },
-    { id: 5, name: 'Asad', role: 'Developer' },
-    { id: 6, name: 'Asad', role: 'Developer' },
+    { id: 1, name: 'Tanni', role: 'Developer' },
+    { id: 2, name: 'Tanni', role: 'Developer' },
+    { id: 3, name: 'Tanni', role: 'Developer' },
+    { id: 4, name: 'Tanni', role: 'Developer' },
+    { id: 5, name: 'Tanni', role: 'Developer' },
+    { id: 6, name: 'Tanni', role: 'Developer' },
 ];
 
 function BestInstructors() {
