@@ -107,7 +107,7 @@ function Footer() {
                     <div className='d-flex flex-column flex-md-row justify-content-between align-items-center'>
                         <p className='mb-0'>&copy; 2025 Something. All rights reserved.</p>
                         <div className='legal__links mt-2 mt-md-0'>
-                            <span>Practice by <span className='heart'>♥Tanveer</span> from siteoffie</span>
+                            <span>Practice by <span className='heart'>♥Tanveer</span> from siteoffice</span>
                         </div>
                     </div>
                 </div>
