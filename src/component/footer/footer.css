@@ -1,0 +1,46 @@
+.custom-bg{
+    background-color: #f5f2fab8;
+}
+.coment-bg-light{
+    background-color: #eff1f2;
+}
+.failory-logo-image {
+    margin-bottom: 10px;
+}
+
+.footer-failory-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-description-failory, .footer-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-titles {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social-network-icons {
+    margin-right: 10px;
+}
+
+.link-email-footer {
+    color: #007bff;
+}
+
+.legal__links .heart {
+    color: red;
+}

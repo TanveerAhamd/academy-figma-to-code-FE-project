@@ -1,0 +1,16 @@
+.search-containeer {
+    position: relative;
+    width: 645px;
+}
+
+.search-containeer .bi-search {
+    position: absolute;
+    top: 50%;
+    right: 10px ;
+    transform: translateY(-50%);
+    pointer-events: none; 
+}
+
+.search-containeer input {
+    padding-right: 35px;
+}

@@ -1,0 +1,60 @@
+:root {
+    --text-color: #e671e5;
+    --bg-color: #5a69f2;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #ffffff !important;
+}
+/* Default styles */
+.bg-color-custom {
+    width: 300px;
+    background-color: var(--bg-color);
+}
+
+.bg-white-custom {
+    margin-left: -200px;
+    width: 400px;
+}
+
+/* Media queries */
+
+/* Remove background color of .bg-color-custom on small screens (1px to 575.98px) */
+@media (max-width: 575.98px) {
+    .bg-color-custom {
+        background-color: transparent; /* Remove background color */
+    }
+
+    .bg-white-custom {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+}
+
+/* Small to medium devices (576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bg-white-custom {
+        margin-left: -200px;
+        width: 350px;
+    }
+}
+
+/* Medium to large devices (768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bg-color-custom {
+        width: 200px;
+    }
+
+    .bg-white-custom {
+        margin-left: -150px;
+        width: 300px;
+    }
+}
+
+/* Large devices (992px and up) */
+@media (min-width: 992px) {
+    /* Define any specific styles for large devices if needed */
+}

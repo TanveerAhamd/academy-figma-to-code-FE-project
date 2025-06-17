@@ -1,0 +1,171 @@
+
+.persentage-div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+border-color: #e671e5 !important;
+}
+
+
+
+/* Custom styles for HeroSection */
+.circle-background {
+    position: absolute;
+    top: 0;
+    right: 8%;
+    width: 65%;
+    height: 90%;
+    background-color: #e671e5;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.img-width {
+    display: block;
+    margin: 0 auto;
+    max-width: 80% !important;
+    height: auto;
+}
+
+.shadow-effect {
+    filter: drop-shadow(30px 40px 50px #e670e4cc);
+}
+
+.ux-ui-text {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    color: #e670e4cc;
+    font-weight: bold;
+    text-shadow: 2px 0px 0px rgb(255, 255, 255);
+    z-index: 1;
+}
+
+
+.ellipse-img {
+    top: 7%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+.frame1-img {
+    bottom: 17%;
+    left: 10%;
+    transform: translate(50%, -50%);
+    height: auto;
+    max-width: 70px !important;
+}
+
+.frame-img {
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 50%);
+}
+
+.polygon-img {
+    bottom: 45%;
+    right: 3%;
+    transform: translate(50%, 50%);
+
+}
+
+
+@media (max-width: 576px) {
+    .frame1-img {
+        bottom: 17%;
+        left: 5%;
+        transform: translate(50%, -50%);
+        height: auto;
+        max-width: 50px !important;
+    }
+ }
+
+
+@media (min-width: 768px) {
+    .circle-background {
+        position: absolute;
+        top: 0;
+        right: 8%;
+        width: 65%;
+        height: 65%;
+        background-color: rgba(230, 113, 229, 1);
+        border-radius: 50%;
+        z-index: -1;
+    }
+    .ellipse-img {
+        top: 5%;
+        left: 43%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .frame1-img {
+        bottom: 30%;
+        left: 3%;
+        transform: translate(50%, -50%);
+        height: auto;
+        max-width: 50px !important;
+    }
+    
+    .frame-img {
+        top: 0;
+        right: -10%;
+        transform: translate(-50%, 50%);
+    }
+    
+    .polygon-img {
+        bottom: 45%;
+        right: 3%;
+        transform: translate(50%, 50%);
+    
+    }
+
+    .ux-ui-text {
+        position: absolute;
+        top: 20%;
+        left: 13%;
+        color: #e670e4cc;
+        font-weight: bold;
+        text-shadow: 2px 0px 0px rgb(255, 255, 255);
+        z-index: 1;
+    }
+ }
+
+
+@media (min-width: 992px) {
+    .circle-background {
+        position: absolute;
+        top: 0;
+        right: 8%;
+        width: 65%;
+        height: 90%;
+        background-color: rgba(230, 113, 229, 1);
+        border-radius: 50%;
+        z-index: -1;
+    }
+    .ellipse-img {
+        top: 7%;
+        left: 43%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .frame1-img {
+        bottom: 17%;
+        left: 10%;
+        transform: translate(50%, -50%);
+        height: auto;
+        max-width: 70px !important;
+    }
+    
+    .frame-img {
+        top: 0;
+        right: 0;
+        transform: translate(-50%, 50%);
+    }
+    
+    .polygon-img {
+        bottom: 45%;
+        right: 3%;
+        transform: translate(50%, 50%);
+    
+    }
+ }
